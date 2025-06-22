@@ -17,7 +17,7 @@ int main()
     }
     printf("nhap so luong phan tu : ");
     scanf("%d", &n);
-    if(n > 0 || n < 1000)
+    if(n > 0 && n < 1000)
     {
         for(int i = 0; i < n; i++)
         {
@@ -32,7 +32,7 @@ int main()
                 max = arr[i];
             }
         }
-        printf("phan tu lon nhat trong mang la : %d : ",max);
+        printf("phan tu lon nhat trong mang la : %d  ",max);
     }
 
     free(arr);

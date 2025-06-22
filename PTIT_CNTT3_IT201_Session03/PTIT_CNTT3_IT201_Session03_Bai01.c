@@ -18,7 +18,7 @@ int main(){
     printf("nhap so luong phan tu : ");
     scanf("%d", &n);
 
-    if(n > 0 || n < 1000){
+    if(n > 0 && n < 1000){
 
         for(int i = 0; i < n; i++){
             printf("nhap phan tu thu %d : ",i+1);
